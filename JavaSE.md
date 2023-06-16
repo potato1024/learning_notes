@@ -8,19 +8,24 @@
 - 对象接收：==cmd+opt+v==或者==.var==
 - 包裹代码块：==cmd+opt+t==
 - 全局查找（nevigate）：==shift+shift==
-- 自动生成getset方法：==cmd+n==或者==ctrl+enter==
+- 自动生成getset方法：==cmd+n==或者==ctrl+return==
 - 向下复制一行：==cmd+d==
 - 竖排选中：==opt不松==
-- 类找方法：==cmd+f12==
 - 跟进：==cmd+b==
 - 接口的实现类：==cmd+opt+b==
 - 返回：==cmd+opt+左==或者==cmd+[==
-- 变量切割：==opt+enter==
+- 变量切割：==opt+return==
 - 整行移动：==shift+opt+上下==
 - 撤销：==cmd+shift+z==
 - run：==ctrl+shift+r==
 - debug：==ctrl+shift+d==
 -  重写方法：==ctrl+o==
+-  显示当前类的所有方法：==cmd+f12==或者==cmd+7==
+-  查看变量的值（调试中）：==cmd+f8==
+-  xml标签自闭合：==opt+shift+return==
+-  xml标签展开：==opt+return==
+-  排除maven依赖：==shift+fn+delete==
+-  查看类的实现：==ctrl+H==
 
 ---
 
@@ -32,6 +37,7 @@
 - 循环：==fori==
 - 倒序遍历：==forr==
 - 对象接收：==var==
+- 增强for：iter
 
 ---
 
@@ -59,6 +65,7 @@
 
 - 字面量
 - JavaBean（插件：PTG）
+- OGNL对象导航图
 
 ---
 

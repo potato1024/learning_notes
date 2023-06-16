@@ -13,6 +13,10 @@ git init
 git status 
 #添加工作区到暂存区
 git add .
+
+#取消暂存
+git rm --cached -rf .
+
 #提交暂存区到本地仓库
 git commit -m"提交日志"
 #查看提交日志
@@ -72,6 +76,10 @@ git remote add origin git@gitee.com:potato2048/git_test.git
 
 #查看远程仓库
 git remote 
+git remote -v
+
+#取消远程仓库的关联
+git remote remove origin
 
 #将本地的master分支推送到远程仓库origin
 git push origin master
@@ -81,6 +89,7 @@ git push origin master:master
 git push -f origin master
 #推送到远程的同时建立和远端分支的关系
 git push --set-upstream origin master
+git push -u origin master
 #如果当前分支和远端分支已经关联，可以省略分支名和远端名
 git push
 
@@ -96,6 +105,9 @@ git fetch
 #拉取：将仓库的更新都拉到本地，并自动合并，等同于fetch + merge
 git pull 
 ####如果不指定远端名称和分支名，则拉取所有分支
+
+#修改git全局配置，禁止git自动将lf转换成crlf
+git config --global core.autocrlf false
 ```
 
 
